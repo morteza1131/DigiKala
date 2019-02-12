@@ -22,9 +22,6 @@ def login_func (login_url,values,url):
         url, 
         headers = dict(referer = url)
     )
-
-
-
     return result
 
 def change_number(persian_char):
